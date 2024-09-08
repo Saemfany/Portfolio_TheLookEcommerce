@@ -6,5 +6,5 @@ In this project, I conducted an in-depth analysis of the theLook eCommerce datas
 
 This project was carried out in [Google Cloud Console](https://console.cloud.google.com/) using [TheLook Ecommerce](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce) dataset available in the BigQuery data warehouse.
 
-
+For the complete SQL code, it can be viewed here.
 
