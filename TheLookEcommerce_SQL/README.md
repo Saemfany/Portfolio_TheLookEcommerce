@@ -60,9 +60,9 @@ Result:
 | 36743548.0 | 100000 | 125225 | 31430 |
 
 ## Deep Dive Analysis
-1. What is the annual revenue trend for theLook eCommerce?
+**1. What is the annual revenue trend for theLook eCommerce?**
 
-Query:
+**Query:**
 ```sql
 SELECT
   EXTRACT(YEAR FROM order_created_date) AS order_created_year,
@@ -73,7 +73,7 @@ GROUP BY order_created_year
 ORDER BY order_created_year asc;
 ```
 
-Result:
+**Result:**
 | order_created_year | total_pendapatan |
 | ---: | ---: |
 | 2019 | 587454.0 |
@@ -83,5 +83,42 @@ Result:
 | 2023 | 9932753.0 |
 | 2024 | 14406299.0 |
 
-Graph:
-![Total Revenue per Year](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/64e356f5ab7966a3983948846e853778e7e83016/TheLookEcommerce_SQL/assets/fig_1%20total%20revenue%20per%20year.png)
+**Graph:**
+
+<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/88711e21714bbe0d5a8011b593ea47cefba8b1df/TheLookEcommerce_SQL/assets/fig_1_total_revenue_per_year.png" width="400" alt="Total Revenue per Year">
+
+From the data above, here are the key insights regarding the annual revenue trend for theLook eCommerce:
+1. **Consistent Growth**: theLook eCommerce has experienced continuous revenue growth each year from 2019 to 2024. This indicates a healthy business with increasing sales and customer engagement.
+2. **Significant Revenue Increase**:
+   - The revenue nearly **triples** from 2019 (587,454) to 2020 (1,972,233), indicating a major boost in sales or customer base during that year.
+   - From 2020 to 2021, there is an almost **85% increase** in revenue, showing strong momentum.
+   - The growth accelerates further between 2022 and 2023, with a **65% rise** in revenue.
+   - Between 2023 and 2024, the revenue jumps by about **45%**, reaching over 14 million.
+3. **Exponential Growth in Later Years**: From 2021 onward, the revenue starts to grow at a faster rate. This could be due to expanded operations, new product offerings, marketing strategies, or increased customer loyalty.
+4. **Pandemic Influence**: The large jump from 2019 to 2020 might be partly due to the global shift toward online shopping during the COVID-19 pandemic, which many ecommerce platforms benefited from.
+5. **Future Potential**: If the current growth trend continues, TheLook Ecommerce is poised for even higher revenue figures in the coming years. However, sustaining this growth would likely require continued innovation, customer acquisition strategies, and market expansion.
+
+In conclusion, theLook eCommerce is experiencing robust and accelerating growth, particularly from 2020 onwards, and is well-positioned to continue capitalizing on the e-commerce boom.
+
+**2. How is the performance of the traffic sources owned by theLook eCommerce?**
+
+**Query:**
+```sql
+SELECT
+  traffic_source,
+  ROUND(SUM(pendapatan)) AS total_pendapatan
+FROM table1
+GROUP BY traffic_source
+ORDER BY total_pendapatan desc;
+```
+
+**Result:**
+| traffic_source | total_pendapatan |
+| :--- | ---: |
+| Search | 25805557.0 |
+| Organic | 5453897.0 |
+| Facebook | 2186340.0 |
+| Email | 1781605.0 |
+| Display | 1494272.0 |
+
+**Graph:**
