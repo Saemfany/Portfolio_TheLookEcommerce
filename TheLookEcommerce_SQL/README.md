@@ -84,4 +84,4 @@ Result:
 | 2024 | 14406299.0 |
 
 Graph:
-![Total Revenue per Year](TheLookEcommerce_SQL/assets/fig_1 total revenue per year.png)
+![Total Revenue per Year](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/64e356f5ab7966a3983948846e853778e7e83016/TheLookEcommerce_SQL/assets/fig_1%20total%20revenue%20per%20year.png)
