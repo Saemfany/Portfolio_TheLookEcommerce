@@ -82,3 +82,6 @@ Result:
 | 2022 | 6029152.0 |
 | 2023 | 9932753.0 |
 | 2024 | 14406299.0 |
+
+Graph:
+![Total Revenue per Year](TheLookEcommerce_SQL/assets/fig_1 total revenue per year.png)
