@@ -57,10 +57,10 @@ FROM table1;
 Result:
 | total_pendapatan | total_customer | total_order | total_lost_order |
 | ---: | ---: | ---: | ---: |
-| 36743548.0 | 100000 | 125225 | 31430 |
+| 36721671.0 | 100000 | 124823 | 31152 |
 
 ## Deep Dive Analysis
-**1. What is the annual revenue trend for theLook eCommerce?**
+### 1. What is the annual revenue trend for theLook eCommerce?
 
 **Query:**
 ```sql
@@ -76,12 +76,12 @@ ORDER BY order_created_year asc;
 **Result:**
 | order_created_year | total_pendapatan |
 | ---: | ---: |
-| 2019 | 587454.0 |
-| 2020 | 1972233.0 |
-| 2021 | 3658586.0 |
-| 2022 | 6029152.0 |
-| 2023 | 9932753.0 |
-| 2024 | 14406299.0 |
+| 2019 | 591760.0 |
+| 2020 | 1969735.0 |
+| 2021 | 3744144.0 |
+| 2022 | 6172828.0 |
+| 2023 | 10068376.0 |
+| 2024 | 14174828.0 |
 
 **Graph:**
 
@@ -90,7 +90,7 @@ ORDER BY order_created_year asc;
 From the data above, here are the key insights regarding the annual revenue trend for theLook eCommerce:
 1. **Consistent Growth**: theLook eCommerce has experienced continuous revenue growth each year from 2019 to 2024. This indicates a healthy business with increasing sales and customer engagement.
 2. **Significant Revenue Increase**:
-   - The revenue nearly **triples** from 2019 (587,454) to 2020 (1,972,233), indicating a major boost in sales or customer base during that year.
+   - The revenue **triples** from 2019 (591,760) to 2020 (1,969,735), indicating a major boost in sales or customer base during that year.
    - From 2020 to 2021, there is an almost **85% increase** in revenue, showing strong momentum.
    - The growth accelerates further between 2022 and 2023, with a **65% rise** in revenue.
    - Between 2023 and 2024, the revenue jumps by about **45%**, reaching over 14 million.
@@ -100,7 +100,7 @@ From the data above, here are the key insights regarding the annual revenue tren
 
 In conclusion, theLook eCommerce is experiencing robust and accelerating growth, particularly from 2020 onwards, and is well-positioned to continue capitalizing on the e-commerce boom.
 
-**2. How is the performance of the traffic sources owned by theLook eCommerce?**
+### 2. How is the performance of the traffic sources owned by theLook eCommerce?
 
 **Query:**
 ```sql
@@ -122,3 +122,67 @@ ORDER BY total_pendapatan desc;
 | Display | 1494272.0 |
 
 **Graph:**
+
+<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/62979d4a38f89747bbe810b38bb8182bbc35d4d9/TheLookEcommerce_SQL/assets/fig_2_traffic_source.png" width="400" alt="Traffic Source">
+
+Here are the key insights from the traffic source performance data for theLook eCommerce:
+1. **Search as the Dominant Traffic Source**:
+   - The **Search** traffic source contributes significantly more than any other channel, generating over **25.8 million** in revenue. This suggests that paid search ads (or organic search visibility) are highly effective for driving sales.
+2. **Organic Traffic**:
+   - **Organic traffic** generates around **5.45 million** in revenue, which indicates strong performance from non-paid search results. It suggests that TheLook Ecommerce has a good presence in search engines without relying entirely on paid ads.
+3. **Social Media Impact**:
+   - **Facebook** is the highest-performing social media source, contributing **2.18 million** in revenue. This suggests effective use of social media marketing strategies, although its impact is smaller compared to search and organic channels.
+4. **Email Marketing**:
+   - Email marketing contributes **1.78 million** in revenue. This shows that email campaigns still play a role in generating sales, although it's less impactful compared to other channels like search or Facebook.
+5. **Display Ads**:
+   - **Display ads** generate around **1.49 million** in revenue, showing that banner or other types of visual ads are the least effective among the traffic sources, though they still make a contribution.
+
+**Key Takeaways:**
+- **Search** is by far the most effective channel, followed by **Organic traffic**, demonstrating that both paid and organic search strategies are driving the majority of revenue.
+- **Social media and email marketing** contribute moderately, but there may be opportunities to improve these channels for greater returns.
+- **Display ads** are the lowest-performing, which may suggest reconsidering the budget or strategy for this type of advertising.
+
+In summary, focusing on search strategies (both paid and organic) while exploring ways to boost social media and email marketing performance could help improve overall revenue generation.
+
+### 3. What are the top 5 product categories based on total orders in TheLook Ecommerce?
+**Query:**
+```sql
+SELECT
+  product_category,
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_category
+ORDER BY total_order DESC
+LIMIT 5;
+```
+
+**Result:**
+
+
+### 4. What are the top 5 product name based on total orders in TheLook Ecommerce?
+**Query:**
+```sql
+SELECT
+  product_name,
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_name
+ORDER BY total_order DESC
+LIMIT 5;
+```
+
+**Result:**
+
+### 5. What are the top 5 product brand based on total orders in TheLook Ecommerce?
+**Query:**
+```sql
+SELECT
+  product_brand,
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_brand
+ORDER BY total_order DESC
+LIMIT 5;
+```
+
+**Result:**
