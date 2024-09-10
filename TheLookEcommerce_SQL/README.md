@@ -2,18 +2,18 @@
 
 ### Table of Contents
 
-[Introduction](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#introduction)
+[Introduction](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#introduction)
 
-[Data Analysis](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#data-analysis)
+[Data Analysis](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#data-analysis)
 
-* [Overall Performance](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#overall-performance)
-* [Deep Dive Analysis](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#deep-dive-analysis)
-  - [Annual Revenue Trend](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#1-what-is-the-annual-revenue-trend-for-thelook-ecommerce)
-  - [Performance of the Traffic Source](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#2-how-is-the-performance-of-the-traffic-sources-owned-by-thelook-ecommerce)
-  - [Top 5 Product Category](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#3-what-are-the-top-5-product-categories-based-on-total-orders-in-thelook-ecommerce)
-  - [Top 5 Product Name](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#4-what-are-the-top-5-product-name-based-on-total-orders-in-thelook-ecommerce)
-  - [Top 5 Product Brand](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#5-what-are-the-top-5-product-brand-based-on-total-orders-in-thelook-ecommerce)
-  - [Top 5 Country](https://github.com/Saemfany/Portfolio_TheLookEcommerce/edit/main/TheLookEcommerce_SQL/README.md#6-what-are-the-top-5-countries-based-on-total-revenue-for-thelook-ecommerce)
+* [Overall Performance](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#overall-performance)
+* [Deep Dive Analysis](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#deep-dive-analysis)
+  - [Annual Revenue Trend](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#1-what-is-the-annual-revenue-trend-for-thelook-ecommerce)
+  - [Performance of the Traffic Source](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#2-how-is-the-performance-of-the-traffic-sources-owned-by-thelook-ecommerce)
+  - [Top 5 Product Category](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#3-what-are-the-top-5-product-categories-based-on-total-orders-in-thelook-ecommerce)
+  - [Top 5 Product Name](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#4-what-are-the-top-5-product-name-based-on-total-orders-in-thelook-ecommerce)
+  - [Top 5 Product Brand](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#5-what-are-the-top-5-product-brand-based-on-total-orders-in-thelook-ecommerce)
+  - [Top 5 Country](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/main/TheLookEcommerce_SQL/README.md#6-what-are-the-top-5-countries-based-on-total-revenue-for-thelook-ecommerce)
 
 ---
 
