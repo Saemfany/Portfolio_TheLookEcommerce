@@ -85,7 +85,7 @@ ORDER BY order_created_year asc;
 
 **Graph:**
 
-<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/88711e21714bbe0d5a8011b593ea47cefba8b1df/TheLookEcommerce_SQL/assets/fig_1_total_revenue_per_year.png" width="400" alt="Total Revenue per Year">
+<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/4ba2d9d2c3a5c5abdb4ef24c50bda883f3e086c6/TheLookEcommerce_SQL/assets/fig_1_total_revenue_per_year.png" width="400" alt="Total Revenue per Year">
 
 From the data above, here are the key insights regarding the annual revenue trend for theLook eCommerce:
 1. **Consistent Growth**: theLook eCommerce has experienced continuous revenue growth each year from 2019 to 2024. This indicates a healthy business with increasing sales and customer engagement.
