@@ -157,7 +157,34 @@ LIMIT 5;
 ```
 
 **Result:**
+| product_category | total_order |
+| :--- | ---: |
+| Jeans | 22837 |
+| Tops & Tees | 21911 |
+| Intimates | 21615 |
+| Fashion Hoodies & Sweatshirts | 21505 |
+| Shorts | 20746 |
 
+**Graph:**
+
+<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/39392397499a6856d5684f479380fbe1cf2b14ca/TheLookEcommerce_SQL/assets/fig_3_top_5_product_category.png" width="400" alt="Top 5 Product Category">
+
+Here are the insights from the top 5 product categories based on total orders at TheLook Ecommerce:
+1. **Jeans as the Top-Selling Category**:
+   - **Jeans** lead in total orders with **22,837**, making it the most popular product category. This indicates a strong demand for jeans among customers, suggesting that it could be a staple or high-demand item in the store.
+2. **Tops & Tees and Intimates**:
+   - **Tops & Tees** (21,911) and **Intimates** (21,615) follow closely behind jeans. These categories also show high popularity, which reflects customer interest in everyday wear and essential clothing items.
+3. **Fashion Hoodies & Sweatshirts**:
+   - **Fashion Hoodies & Sweatshirts** rank fourth with **21,505** orders, showing that customers are interested in more casual and comfortable clothing styles. This might indicate trends in casual wear or seasonal demand (e.g., colder months).
+4. **Shorts**:
+   - **Shorts**, with **20,746** orders, round out the top five categories. While slightly lower in total orders compared to the others, this still reflects a strong preference for seasonal or casual clothing items.
+
+**Key Takeaways:**
+- **Basic and casual wear** items like jeans, tees, hoodies, and shorts dominate the top product categories, indicating customer preference for versatile, everyday clothing.
+- The minimal difference in total orders across the top categories suggests consistent demand across these key clothing categories.
+- **Fashion Hoodies & Sweatshirts** could indicate a trend toward comfort-focused fashion, possibly linked to remote work or lifestyle changes.
+
+In conclusion, TheLook Ecommerce should continue focusing on these popular categories while also exploring new trends and seasonal demand to optimize sales.
 
 ### 4. What are the top 5 product name based on total orders in TheLook Ecommerce?
 **Query:**
