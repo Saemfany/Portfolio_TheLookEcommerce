@@ -169,7 +169,7 @@ LIMIT 5;
 
 <img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/39392397499a6856d5684f479380fbe1cf2b14ca/TheLookEcommerce_SQL/assets/fig_3_top_5_product_category.png" width="400" alt="Top 5 Product Category">
 
-Here are the insights from the top 5 product categories based on total orders at TheLook Ecommerce:
+Here are the insights from the top 5 product categories based on total orders at theLook eCommerce:
 1. **Jeans as the Top-Selling Category**:
    - **Jeans** lead in total orders with **22,837**, making it the most popular product category. This indicates a strong demand for jeans among customers, suggesting that it could be a staple or high-demand item in the store.
 2. **Tops & Tees and Intimates**:
@@ -184,7 +184,7 @@ Here are the insights from the top 5 product categories based on total orders at
 - The minimal difference in total orders across the top categories suggests consistent demand across these key clothing categories.
 - **Fashion Hoodies & Sweatshirts** could indicate a trend toward comfort-focused fashion, possibly linked to remote work or lifestyle changes.
 
-In conclusion, TheLook Ecommerce should continue focusing on these popular categories while also exploring new trends and seasonal demand to optimize sales.
+In conclusion, theLook eCommerce should continue focusing on these popular categories while also exploring new trends and seasonal demand to optimize sales.
 
 ### 4. What are the top 5 product name based on total orders in TheLook Ecommerce?
 **Query:**
@@ -199,6 +199,16 @@ LIMIT 5;
 ```
 
 **Result:**
+| Product Name | Total Order |
+| :--- | ---: |
+| Wrangler Men's Premium Performance Cowboy Cut Jean | 99 |
+| Pearl iZUMi Attack Sock 3-Pack | 79 |
+| Puma Men's Socks | 78 |
+| Hanes Men's 4 Pack Boxer Brief | 77 |
+| Fred Perry Men's Crew Neck Sweater | 70 |
+
+**Graph:**
+
 
 ### 5. What are the top 5 product brand based on total orders in TheLook Ecommerce?
 **Query:**
