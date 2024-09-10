@@ -123,7 +123,7 @@ ORDER BY total_pendapatan desc;
 
 **Graph:**
 
-<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/62979d4a38f89747bbe810b38bb8182bbc35d4d9/TheLookEcommerce_SQL/assets/fig_2_traffic_source.png" width="400" alt="Traffic Source">
+<img src="https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/d3336e2f0561c5bb42280a926770462e8d38b931/TheLookEcommerce_SQL/assets/fig_2_traffic_source.png" width="400" alt="Traffic Source">
 
 Here are the key insights from the traffic source performance data for theLook eCommerce:
 1. **Search as the Dominant Traffic Source**:
