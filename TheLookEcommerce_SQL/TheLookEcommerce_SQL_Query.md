@@ -25,10 +25,10 @@ LEFT JOIN bigquery-public-data.thelook_ecommerce.order_items oi ON u.id = oi.use
 LEFT JOIN bigquery-public-data.thelook_ecommerce.products p ON oi.product_id = p.id;
 
 -- OVERALL PERFORMANCE
--- 1. Berapa total pendapatan TheLook Ecommerce yang diterima?
--- 2. Berapa jumlah customer yang dimiliki oleh TheLook Ecommerce?
--- 3. Berapa jumlah order yang dimiliki oleh TheLook Ecommerce?
--- 4. Berapa jumlah lost order opportunity yang dimliki TheLook Ecommerce?
+-- 1. What is the total revenue received by theLook eCommerce?
+-- 2. How many customers does theLook eCommerce have?
+-- 3. How many orders does theLook eCommerce have?
+-- 4. How many lost order opportunities does theLook eCommerce have?
 SELECT
   ROUND(SUM(pendapatan)) AS total_pendapatan,
   COUNT(DISTINCT customer_id) AS total_customer,
@@ -37,7 +37,7 @@ SELECT
 FROM table1;
 
 -- DEEP DIVE ANALYSIS
--- 1. Bagaimana tren pendapatan per tahun yang dimiliki TheLook Ecommerce?
+-- 1. What is the annual revenue trend for theLook eCommerce?
 SELECT
   EXTRACT(YEAR FROM order_created_date) AS order_created_year,
   ROUND(SUM(pendapatan)) AS total_pendapatan
@@ -46,47 +46,47 @@ WHERE pendapatan IS NOT NULL
 GROUP BY order_created_year
 ORDER BY order_created_year ASC;
 
--- 2. Bagaimana performance traffic source yang dimiliki oleh TheLook Ecommerce?
-select
+-- 2. How is the performance of the traffic sources owned by theLook eCommerce?
+SELECT
   traffic_source,
-  round(sum(pendapatan)) as total_pendapatan
-from table1
-group by traffic_source
-order by total_pendapatan desc;
+  ROUND(SUM(pendapatan)) AS total_pendapatan
+FROM table1
+GROUP BY traffic_source
+ORDER BY total_pendapatan DESC;
 
--- 3. Apa top 5 product category berdasarkan total order di TheLook Ecommerce?
-select
+-- 3. What are the top 5 product categories based on total orders in theLook eCommerce?
+SELECT
   product_category,
-  count(distinct order_id) as total_order  
-from table1
-group by product_category
-order by total_order desc
-limit 5;
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_category
+ORDER BY total_order DESC
+LIMIT 5;
 
--- 4. Apa top 5 product name berdasarkan total order di TheLook Ecommerce?
-select
+-- 4. What are the top 5 product name based on total orders in theLook eCommerce?
+SELECT
   product_name,
-  count(distinct order_id) as total_order  
-from table1
-group by product_name
-order by total_order desc
-limit 5;
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_name
+ORDER BY total_order DESC
+LIMIT 5;
 
--- 5. Apa top 5 product brand berdasarkan total order di TheLook Ecommerce?
-select
+-- 5. What are the top 5 product brand based on total orders in theLook eCommerce?
+SELECT
   product_brand,
-  count(distinct order_id) as total_order  
-from table1
-group by product_brand
-order by total_order desc
-limit 5;
+  COUNT(DISTINCT order_id) AS total_order  
+FROM table1
+GROUP BY product_brand
+ORDER BY total_order DESC
+LIMIT 5;
 
--- 6. Apa top 5 negara berdasarkan total pendapatan TheLook Ecommerce?
-select
+-- 6. What are the top 5 countries based on total revenue for theLook eCommerce?
+SELECT
   country,
-  round(sum(pendapatan)) as total_pendapatan 
-from table1
-group by country
-order by total_pendapatan desc
-limit 5;
+  ROUND(SUM(pendapatan)) AS total_pendapatan 
+FROM table1
+GROUP BY country
+ORDER BY total_pendapatan DESC
+LIMIT 5;
 ```
