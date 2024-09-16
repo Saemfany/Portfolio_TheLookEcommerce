@@ -8,7 +8,7 @@ This data analysis project for **theLook eCommerce** was conducted using two met
 
 Both methods offer valuable insights and complement each other in understanding the dataset and deriving business conclusions.
 
-```css
-This data analysis is part of a portfolio project completed during the Bootcamp BantuNgerti "SQL and Python Navigation for Data Analysts Batch 4".
-```
 ---
+
+> [!NOTE]
+> This data analysis is part of a portfolio project completed during the **Bootcamp BantuNgerti** *"SQL and Python Navigation for Data Analysts Batch 4"*.
