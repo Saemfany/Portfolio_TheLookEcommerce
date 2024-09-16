@@ -12,6 +12,6 @@ This notebook demonstrates how to analyze eCommerce data using Python. We are us
 - Which products, brands, and categories are top performers?
 - Which countries are the top revenue-generating?
 
-**Note:** The code structure and steps used in the analysis, data visualization, data insights, and conclusions are witten in `theLook_eCommerce.ipynb`. The code structure is executed in Google Colab.
+**Note:** The code structure and steps used in the analysis, data visualization, data insights, and conclusions are witten in [`theLook_eCommerce.ipynb`](https://github.com/Saemfany/Portfolio_TheLookEcommerce/blob/38932721adc2bf366bf5b487b2c5759b211e8135/theLook_eCommerce_Python/theLook_eCommerce.ipynb). The code structure is executed in Google Colab.
 
 ---
