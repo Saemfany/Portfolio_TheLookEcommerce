@@ -11,4 +11,4 @@ Both methods offer valuable insights and complement each other in understanding 
 ---
 
 > [!NOTE]
-> This data analysis is part of a portfolio project completed during the **Bootcamp BantuNgerti** *"SQL and Python Navigation for Data Analysts Batch 4"*.
+> This data analysis is part of a portfolio project completed during the **BantuNgerti Bootcamp** *"SQL and Python Navigation for Data Analysts"* Batch 4.
